@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C142F481E14E9EA008E6FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C142F471E14E9EA008E6FFF /* AppDelegate.swift */; };
+		4C142F4A1E14E9EA008E6FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C142F491E14E9EA008E6FFF /* ViewController.swift */; };
+		4C142F4D1E14E9EA008E6FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C142F4B1E14E9EA008E6FFF /* Main.storyboard */; };
+		4C142F4F1E14E9EA008E6FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C142F4E1E14E9EA008E6FFF /* Assets.xcassets */; };
+		4C142F521E14E9EA008E6FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C142F501E14E9EA008E6FFF /* LaunchScreen.storyboard */; };
+		4C142F5D1E14E9EA008E6FFF /* TeacherAttendanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C142F5C1E14E9EA008E6FFF /* TeacherAttendanceTests.swift */; };
+		4C142F681E14E9EB008E6FFF /* TeacherAttendanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C142F671E14E9EB008E6FFF /* TeacherAttendanceUITests.swift */; };
+		4C79BCD01E1DF9BD00128CA7 /* CommUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79BCCF1E1DF9BD00128CA7 /* CommUtils.swift */; };
+		4CE75A381E15EF4A007E5C3C /* YNRippleAnimatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE75A371E15EF4A007E5C3C /* YNRippleAnimatView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C142F591E14E9EA008E6FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C142F3C1E14E9E9008E6FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C142F431E14E9EA008E6FFF;
+			remoteInfo = TeacherAttendance;
+		};
+		4C142F641E14E9EB008E6FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C142F3C1E14E9E9008E6FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C142F431E14E9EA008E6FFF;
+			remoteInfo = TeacherAttendance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C142F441E14E9EA008E6FFF /* WaveRipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveRipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C142F471E14E9EA008E6FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C142F491E14E9EA008E6FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C142F4C1E14E9EA008E6FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C142F4E1E14E9EA008E6FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C142F511E14E9EA008E6FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C142F531E14E9EA008E6FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C142F581E14E9EA008E6FFF /* WaveRippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveRippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C142F5C1E14E9EA008E6FFF /* TeacherAttendanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAttendanceTests.swift; sourceTree = "<group>"; };
+		4C142F5E1E14E9EA008E6FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C142F631E14E9EB008E6FFF /* WaveRippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveRippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C142F671E14E9EB008E6FFF /* TeacherAttendanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAttendanceUITests.swift; sourceTree = "<group>"; };
+		4C142F691E14E9EB008E6FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C142F761E14F4C1008E6FFF /* WaveRipple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveRipple-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		4C79BCCF1E1DF9BD00128CA7 /* CommUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommUtils.swift; sourceTree = "<group>"; };
+		4CE75A361E15EF4A007E5C3C /* YNRippleAnimatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNRippleAnimatView.h; sourceTree = "<group>"; };
+		4CE75A371E15EF4A007E5C3C /* YNRippleAnimatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNRippleAnimatView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C142F411E14E9EA008E6FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F551E14E9EA008E6FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F601E14E9EB008E6FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C142F3B1E14E9E9008E6FFF = {
+			isa = PBXGroup;
+			children = (
+				4CE75A351E15EF4A007E5C3C /* YNRippleAnimatView */,
+				4C142F461E14E9EA008E6FFF /* WaveRipple */,
+				4C142F5B1E14E9EA008E6FFF /* WaveRippleTests */,
+				4C142F661E14E9EB008E6FFF /* WaveRippleUITests */,
+				4C142F451E14E9EA008E6FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C142F451E14E9EA008E6FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C142F441E14E9EA008E6FFF /* WaveRipple.app */,
+				4C142F581E14E9EA008E6FFF /* WaveRippleTests.xctest */,
+				4C142F631E14E9EB008E6FFF /* WaveRippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C142F461E14E9EA008E6FFF /* WaveRipple */ = {
+			isa = PBXGroup;
+			children = (
+				4C142F761E14F4C1008E6FFF /* WaveRipple-Bridging-Header.h */,
+				4C142F471E14E9EA008E6FFF /* AppDelegate.swift */,
+				4C142F491E14E9EA008E6FFF /* ViewController.swift */,
+				4C142F4B1E14E9EA008E6FFF /* Main.storyboard */,
+				4C142F4E1E14E9EA008E6FFF /* Assets.xcassets */,
+				4C142F501E14E9EA008E6FFF /* LaunchScreen.storyboard */,
+				4C142F531E14E9EA008E6FFF /* Info.plist */,
+				4C79BCCF1E1DF9BD00128CA7 /* CommUtils.swift */,
+			);
+			path = WaveRipple;
+			sourceTree = "<group>";
+		};
+		4C142F5B1E14E9EA008E6FFF /* WaveRippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C142F5C1E14E9EA008E6FFF /* TeacherAttendanceTests.swift */,
+				4C142F5E1E14E9EA008E6FFF /* Info.plist */,
+			);
+			name = WaveRippleTests;
+			path = TeacherAttendanceTests;
+			sourceTree = "<group>";
+		};
+		4C142F661E14E9EB008E6FFF /* WaveRippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C142F671E14E9EB008E6FFF /* TeacherAttendanceUITests.swift */,
+				4C142F691E14E9EB008E6FFF /* Info.plist */,
+			);
+			name = WaveRippleUITests;
+			path = TeacherAttendanceUITests;
+			sourceTree = "<group>";
+		};
+		4CE75A351E15EF4A007E5C3C /* YNRippleAnimatView */ = {
+			isa = PBXGroup;
+			children = (
+				4CE75A361E15EF4A007E5C3C /* YNRippleAnimatView.h */,
+				4CE75A371E15EF4A007E5C3C /* YNRippleAnimatView.m */,
+			);
+			path = YNRippleAnimatView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C142F431E14E9EA008E6FFF /* WaveRipple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C142F6C1E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRipple" */;
+			buildPhases = (
+				4C142F401E14E9EA008E6FFF /* Sources */,
+				4C142F411E14E9EA008E6FFF /* Frameworks */,
+				4C142F421E14E9EA008E6FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveRipple;
+			productName = TeacherAttendance;
+			productReference = 4C142F441E14E9EA008E6FFF /* WaveRipple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C142F571E14E9EA008E6FFF /* WaveRippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C142F6F1E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRippleTests" */;
+			buildPhases = (
+				4C142F541E14E9EA008E6FFF /* Sources */,
+				4C142F551E14E9EA008E6FFF /* Frameworks */,
+				4C142F561E14E9EA008E6FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C142F5A1E14E9EA008E6FFF /* PBXTargetDependency */,
+			);
+			name = WaveRippleTests;
+			productName = TeacherAttendanceTests;
+			productReference = 4C142F581E14E9EA008E6FFF /* WaveRippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C142F621E14E9EB008E6FFF /* WaveRippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C142F721E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRippleUITests" */;
+			buildPhases = (
+				4C142F5F1E14E9EB008E6FFF /* Sources */,
+				4C142F601E14E9EB008E6FFF /* Frameworks */,
+				4C142F611E14E9EB008E6FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C142F651E14E9EB008E6FFF /* PBXTargetDependency */,
+			);
+			name = WaveRippleUITests;
+			productName = TeacherAttendanceUITests;
+			productReference = 4C142F631E14E9EB008E6FFF /* WaveRippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C142F3C1E14E9E9008E6FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mc;
+				TargetAttributes = {
+					4C142F431E14E9EA008E6FFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 37SBK46SQ8;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					4C142F571E14E9EA008E6FFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C142F431E14E9EA008E6FFF;
+					};
+					4C142F621E14E9EB008E6FFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C142F431E14E9EA008E6FFF;
+					};
+				};
+			};
+			buildConfigurationList = 4C142F3F1E14E9E9008E6FFF /* Build configuration list for PBXProject "WaveRipple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C142F3B1E14E9E9008E6FFF;
+			productRefGroup = 4C142F451E14E9EA008E6FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C142F431E14E9EA008E6FFF /* WaveRipple */,
+				4C142F571E14E9EA008E6FFF /* WaveRippleTests */,
+				4C142F621E14E9EB008E6FFF /* WaveRippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C142F421E14E9EA008E6FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C142F521E14E9EA008E6FFF /* LaunchScreen.storyboard in Resources */,
+				4C142F4F1E14E9EA008E6FFF /* Assets.xcassets in Resources */,
+				4C142F4D1E14E9EA008E6FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F561E14E9EA008E6FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F611E14E9EB008E6FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C142F401E14E9EA008E6FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C142F4A1E14E9EA008E6FFF /* ViewController.swift in Sources */,
+				4CE75A381E15EF4A007E5C3C /* YNRippleAnimatView.m in Sources */,
+				4C142F481E14E9EA008E6FFF /* AppDelegate.swift in Sources */,
+				4C79BCD01E1DF9BD00128CA7 /* CommUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F541E14E9EA008E6FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C142F5D1E14E9EA008E6FFF /* TeacherAttendanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C142F5F1E14E9EB008E6FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C142F681E14E9EB008E6FFF /* TeacherAttendanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C142F5A1E14E9EA008E6FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C142F431E14E9EA008E6FFF /* WaveRipple */;
+			targetProxy = 4C142F591E14E9EA008E6FFF /* PBXContainerItemProxy */;
+		};
+		4C142F651E14E9EB008E6FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C142F431E14E9EA008E6FFF /* WaveRipple */;
+			targetProxy = 4C142F641E14E9EB008E6FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C142F4B1E14E9EA008E6FFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C142F4C1E14E9EA008E6FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C142F501E14E9EA008E6FFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C142F511E14E9EA008E6FFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C142F6A1E14E9EB008E6FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C142F6B1E14E9EB008E6FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C142F6D1E14E9EB008E6FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 37SBK46SQ8;
+				INFOPLIST_FILE = WaveRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.WaveRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Software/Swift控件功能/动画框架/WaveRipple/WaveRipple-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		4C142F6E1E14E9EB008E6FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 37SBK46SQ8;
+				INFOPLIST_FILE = WaveRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.WaveRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/Software/Swift控件功能/动画框架/WaveRipple/WaveRipple-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		4C142F701E14E9EB008E6FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.TeacherAttendanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveRipple.app/WaveRipple";
+			};
+			name = Debug;
+		};
+		4C142F711E14E9EB008E6FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.TeacherAttendanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveRipple.app/WaveRipple";
+			};
+			name = Release;
+		};
+		4C142F731E14E9EB008E6FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaveRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.TeacherAttendanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TeacherAttendance;
+			};
+			name = Debug;
+		};
+		4C142F741E14E9EB008E6FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaveRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GokerYang.TeacherAttendanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TeacherAttendance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C142F3F1E14E9E9008E6FFF /* Build configuration list for PBXProject "WaveRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C142F6A1E14E9EB008E6FFF /* Debug */,
+				4C142F6B1E14E9EB008E6FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C142F6C1E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C142F6D1E14E9EB008E6FFF /* Debug */,
+				4C142F6E1E14E9EB008E6FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C142F6F1E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C142F701E14E9EB008E6FFF /* Debug */,
+				4C142F711E14E9EB008E6FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C142F721E14E9EB008E6FFF /* Build configuration list for PBXNativeTarget "WaveRippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C142F731E14E9EB008E6FFF /* Debug */,
+				4C142F741E14E9EB008E6FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C142F3C1E14E9E9008E6FFF /* Project object */;
+}
